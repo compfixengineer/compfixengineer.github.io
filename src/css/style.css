@@ -1,0 +1,254 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.header {
+    width: 1920px;
+    height: 60px;
+    background-color: #344051;
+}
+
+.logo {
+    font-size: 28px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 388px;
+    padding-right: 430px;
+    float: left;
+}
+
+.menu li {
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    padding-left: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+main {
+    width: 1920px;
+    height: 1067px; /*calc(100% - 60px);*/
+    background: url(../img/Фото_на_главную.png) 90% 100%/auto 85% no-repeat, 
+    url(../img/фон_главной.png) center/cover no-repeat ;
+}
+
+.main-page {
+    float: left;
+}
+
+.main-title {
+    color:#344051;
+    font-size: 78px; 
+    text-align: center;
+    padding-top: 436px;
+    padding-left: 402px;
+}
+
+.main-subtitle {
+    color: #79818d;
+    font-size: 24px; 
+    margin-top: 45px;
+    padding-left: 453px;
+    padding-bottom: 55px;
+}
+
+.main-page input {
+    color: #6d7682;
+    border-radius: 5px;
+    border: 0.5px solid #6d7682;
+    font-size: 18.9px;
+    padding: 15px;
+    margin-right: 30px;
+    background: none;
+}
+
+.buttom {
+    margin-left: 600px;
+}
+
+
+.container__about-me {
+    width: 1920px;
+    height: 682px;
+    text-align: center;
+}
+
+.about-me__title {
+    font-size: 33px;
+    color: #263244;
+    margin-top: 108px;
+}
+
+.about-me__title::after {
+    content: '';
+    display: block;
+    height: 6px;
+    background: url(../img/cherta_zagolovka.png) center no-repeat;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.about-me__description {
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #3f495a;
+    margin-top: 22px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.button {
+    color: #6d7682;
+    border-radius: 6px;
+    border: 0.5px solid #6d7682;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 11px;
+    margin-right: 30px;
+    margin-top: 42px;
+    margin-bottom: 97px;
+    background: none;
+}
+
+.skill {
+    width: 1920px;
+    height: 523px;
+    background: url(../img/фон_скилы.png) center no-repeat;
+
+}
+
+.skill-bloks {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-title {
+    font-size: 33px;
+    color: #263244; 
+    text-align: center;
+    padding-top: 107px;  
+}
+
+.skill-title::after {
+    content: '';
+    display: block;
+    height: 6px;
+    background: url(../img/cherta_zagolovka.png) center no-repeat;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+.skill-block {
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.skill-block__title {
+    font-family: Bahnschrift;
+    font-size: 18px;
+    font-weight: 600;
+    color: #cf7600;
+    margin-top: 30px;
+}
+
+.skill-block__descr {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3f495a;
+    margin-top: 12px;
+}
+
+.container-case {
+   text-align: center;
+}
+
+.case-descr {
+    text-align: center;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3f495a;
+    margin-bottom: 40px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container-case__client{
+    margin-right: 10px;
+}
+
+.client__title {
+    font-family: 'Franklin Gothic';
+    font-size: 25px;
+    font-weight: 500;
+    color: #384354;
+    margin-bottom: 14px;
+}
+
+.client__name {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3f495a;
+    margin-bottom: 14px;
+}
+
+.website__title {
+    font-family: 'Franklin Gothic';
+    font-size: 25px;
+    font-weight: 500;
+    color: #384354;
+    margin-bottom: 14px;
+}
+
+.website__name {
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3f495a;
+    margin-bottom: 40px;
+}
+
+.buttom__visit_website {
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #63b5ae;
+    border-radius: 5px;
+    padding: 15px 42px;
+}
+
+.name-project {
+    font-family: 'Franklin Gothic';
+    font-size: 25px;
+    font-weight: 500;
+    color: #384354;
+}
+
+.descr-project {
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3f495a;
+    text-align: justify;
+}
+
+
+
+
+
+
+
