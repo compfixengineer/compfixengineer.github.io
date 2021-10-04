@@ -166,7 +166,12 @@ main {
     margin-top: 12px;
 }
 
+.case {
+    width: 1920px;
+}
+
 .container-case {
+    
    text-align: center;
 }
 
