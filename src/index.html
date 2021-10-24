@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/FranklinGothic.ttf">
 
+<!--   <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+
+    <script type="text/javascript">
+        var map;
+    
+        DG.then(function () {
+            map = DG.map('map', {
+                center: [54.98, 82.89],
+                zoom: 13
+            });
+    
+            DG.marker([54.98, 82.89]).addTo(map).bindPopup('Вы кликнули по мне!');
+        });
+    </script> 
+--> 
 </head>
 <body>
     <header>
@@ -177,14 +192,162 @@
 
         </section>
 
-<!--       <section class="cost-calculation">
+       <section class="cost-calculation">
             <form action="#" class="form-cost_calc">
-                <h4 class="calc-title">Расчет стоимости</h4>
+                <h4 class="cost-calc__title">Расчет стоимости</h4>
 
+                <div class="cost-calc__typewebsite">
+                    тип сайта
+                </div>
 
+                <select class="item-select__style" name="typewebsite">
+                    <option value="item-select">Выберите пункт</option>
+                    <option value="1">Сайт визитка</option>
+                    <option value="2">Корпоративный сайт</option>
+                    <option value="3">Информационный сайт</option>
+                    <option value="4">Интернет магазин</option>
+                    <option value="5">Веб приложение</option>
+                </select>
+
+                <div class="cost-calc__desingn">
+                    дизайн
+                </div>
+
+                <select class="item-select__style" name="desingn">
+                    <option value="item-select">Выберите пункт</option>
+                    <option value="1">Шаблонный</option>
+                    <option value="2">Эксклюзивный</option>
+                </select>
+
+                <div class="cost-calc__adaptability">
+                    адаптивность
+                </div>
+
+                <select class="item-select__style" name="adaptability">
+                    <option value="item-select">Выберите пункт</option>
+                    <option value="1">Адаптивный</option>
+                    <option value="2">Пиксель Перфект</option>
+                    <option value="3">Под определенное рарешение</option>
+                    <option value="4">Мобильный экран</option>
+                </select>
+
+                <div class="sum-coast-calc">
+                    <div class="sum-title__time">Сроки: <span class="sum-time">0</span> </div>
+                    <div class="sum-title__cost">Стоимость: <span class="sum-cost"> 0</span> </div>
+                </div>
             </form>
-        </section> --> 
+        </section>
+        
+        <section class="statistics">
+
+            <h2 class="statistics__title"> Немного статистики </h2>
+
+            <div class="statistics-blocks">
+
+                <div class="statistic-block">
+                    <div class="statistic-block__img">
+                        <img src="../src/img/smayl_157.png" alt="смайл">
+                    </div>
+
+                    <div class="statistic-block__number">120</div>
+                    <div class="statistic-block__descr">СЧАСТЛИВЫХ КЛИЕНТОВ</div>
+                </div>
+
+                <div class="statistic-block">
+                    <div class="statistic-block__img">
+                        <img src="../src/img/skobki_158.png" alt="скобки">
+                    </div>
+
+                    <div class="statistic-block__number">4,600</div>
+                    <div class="statistic-block__descr">ЧАСОВ РАБОТЫ</div>
+                </div>
+
+                <div class="statistic-block">
+                    <div class="statistic-block__img">
+                        <img src="../src/img/galochka_159.png" alt="галочка">
+                    </div>
+
+                    <div class="statistic-block__number">340</div>
+                    <div class="statistic-block__descr">ПРОЕКТОВ ЗАВЕРШЕНО</div>
+                </div>
+
+                <div class="statistic-block">
+                    <div class="statistic-block__img">
+                        <img src="../src/img/kubok_160.png" alt="кубок">
+                    </div>
+
+                    <div class="statistic-block__number">23</div>
+                    <div class="statistic-block__descr">НАГРАД ПОЛУЧЕНО</div>
+
+                </div>
+            </div>
+
+        </section>
 
 
+        <section class="feedback">
+                <h2 class="feedback__title"> Отзывы </h2>
+
+                <img src="img/fotka_236.png" alt="фото" class="about-me-icon">
+
+                <p class="feedback__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br>
+                    facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam. 
+                </p>
+
+                <p class="feedback__autor">
+                    Михаил, Ген директор ПАО “Газпром”.
+                </p>
+        </section>
+
+        <section class="my-contacts">
+
+            <h2 class="my-contacts__title">МОИ КОНТАКТЫ</h2>
+            <p class="my-contact__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo </p>
+
+            <div class="my-contact__blocks">
+
+                <div class="my-contact__block">
+                    <img src="img/geo_195.png" alt="Geo" class="my-contact-icon__geo">
+                    <div class="my-contact-icon__adress">Санкт-Петербург <br> Невский проспект 11</div>
+                </div>
+                
+                <div class="my-contact__block">
+                    <img src="img/konvert_196.png" alt="mail" class="my-contact-icon__mail">
+                    <div class="my-contact-icon__mail">info@companyname.com</div>
+                </div>
+
+                <div class="my-contact__block">
+                    <img src="img/truba_197.png" alt="Phone" class="my-contact-icon__phone">
+                    <div class="my-contact-icon__phone">+7 999 999-99-99</div>
+                </div>
+            </div>
+
+            <div class="massege">
+                <h2 class="massage__title">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h2>
+
+                <form class="form-message" action="#">
+                    <input  class="name-text" type="text" value ="Имя">
+                    <input  class="mail-text" type="text" value ="Email"> <br>
+                    <input  class="message-text" type="text" value ="Сообщение">
+
+                    <div class="button-send">
+                        <input  type="submit" value="Отправить">
+                    </div>
+                    
+                </form>
+            </div>
+
+        </section>
+
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.7736411739393!2d30.32202411561827!3d59.935898169282325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310f7cc02599%3A0x2ff59d632907ee46!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1635093149881!5m2!1sru!2sru" width="1920" height="376" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <footer>
+            <div class="container-footer">
+                <p class="footer-text">Copyright © 2021 Андрей Браун. Design by Web</p>
+            </div>
+        </footer>
 </body>
 </html>
